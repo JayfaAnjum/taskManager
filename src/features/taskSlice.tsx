@@ -19,7 +19,7 @@ const initialState: TaskState = {
 
 const API_URL = 'http://localhost:3001/tasks';
 
-// Thunks
+
 export const fetchTasks = createAsyncThunk('tasks/fetch', async () => {
   const res = await axios.get(API_URL);
   return res.data;
@@ -40,7 +40,7 @@ export const updateTask = createAsyncThunk('tasks/update', async (task: Task) =>
   return res.data;
 });
 
-// Slice
+
 const taskSlice = createSlice({
   name: 'tasks',
   initialState,

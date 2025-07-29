@@ -68,7 +68,7 @@ const TaskManager = () => {
       key={task.id}
       className="bg-gray-100 border border-gray-100 rounded-2xl shadow-md hover:shadow-lg transition-all px-6 py-4 flex items-center justify-between"
     >
-      {/* Left side: Task content */}
+     
       <div className="flex-1">
         <div className="mb-1">
           <span className="text-xs font-semibold text-blue-500 uppercase tracking-wide">Title</span>
@@ -80,7 +80,7 @@ const TaskManager = () => {
         </div>
       </div>
 
-      {/* Right side: Action buttons */}
+     
       <div className="flex flex-col-2 gap-2 ml-6 shrink-0 items-center">
         <button
           onClick={() => handleEdit(task)}
