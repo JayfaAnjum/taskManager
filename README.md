@@ -2,7 +2,7 @@
     
     # E-Commerce Website
 
-A full-featured MERN stack E-Commerce application built with modern tools and architecture. The project includes robust product search powered by Typesense, secure authentication using JWT stored in cookies, pagination, Dockerized services, and upcoming features like Redux for state management and Stripe integration for payments.
+A full-featured MERN stack E-Commerce application built with modern tools and architecture. The project includes robust product search powered by Typesense using  Dockerized services, secure authentication using JWT stored in cookies, pagination, and upcoming features like Redux for state management and Stripe integration for payments.(backend finished frontend not fully completed).
 
 ---
 
