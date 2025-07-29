@@ -28,7 +28,7 @@ A full-featured MERN stack E-Commerce application built with modern tools and ar
 
 - 🧠 **Planned Features**
   - [ ] Redux Toolkit for global state management
-  - [ ] Stripe payment integration (in progress)
+  - [ ] Stripe payment integration 
   - [ ] Order management and checkout flow
   - [ ] Admin dashboard for product/user management
 
